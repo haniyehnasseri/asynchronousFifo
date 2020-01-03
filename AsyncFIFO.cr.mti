@@ -1,0 +1,43 @@
+C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/async_fifo.v {1 {vlog -work work C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/async_fifo.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module async_fifo
+
+Top level modules:
+	async_fifo
+
+} {} {}} C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/rptr_empty.v {1 {vlog -work work C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/rptr_empty.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rptr_empty
+
+Top level modules:
+	rptr_empty
+
+} {} {}} C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/wptr_full.v {1 {vlog -work work C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/wptr_full.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module wptr_full
+
+Top level modules:
+	wptr_full
+
+} {} {}} C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/sync_w2r.v {1 {vlog -work work C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/sync_w2r.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sync_w2r
+
+Top level modules:
+	sync_w2r
+
+} {} {}} C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/sync_r2w.v {1 {vlog -work work C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/sync_r2w.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sync_r2w
+
+Top level modules:
+	sync_r2w
+
+} {} {}} C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/fifomem.v {1 {vlog -work work C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/fifomem.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fifomem
+
+Top level modules:
+	fifomem
+
+} {} {}}
