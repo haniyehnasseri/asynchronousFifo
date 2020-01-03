@@ -12,6 +12,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	rptr_empty
 
+} {} {}} C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/fifomem.v {1 {vlog -work work C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/fifomem.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fifomem
+
+Top level modules:
+	fifomem
+
 } {} {}} C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/wptr_full.v {1 {vlog -work work C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/wptr_full.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module wptr_full
@@ -32,12 +39,5 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	sync_r2w
-
-} {} {}} C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/fifomem.v {1 {vlog -work work C:/Users/Parsa/Desktop/newFiles/Uni/CAD/AsyncFIFO/fifomem.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module fifomem
-
-Top level modules:
-	fifomem
 
 } {} {}}

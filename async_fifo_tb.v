@@ -43,10 +43,10 @@ module async_fifo_tb;
 
     for (iter=0; iter<2; iter=iter+1) begin
       for (i=0; i<32; i=i+1) begin
+        @(posedge wclk);
         if(wfull == 0)
         begin
-          @(posedge wclk);
-          winc = (i%2 == 0)? 1'b1 : 1'b0;
+          winc = (i%2 == 0)? 1'b1 : 1'b0; 
           if (winc) begin
             wdata = $urandom % 200;
             $display("wdata=%d", wdata);
@@ -55,7 +55,6 @@ module async_fifo_tb;
           end
         end
       end
-      winc = 1'b0;
       #1000;
     end
   end
@@ -70,10 +69,10 @@ module async_fifo_tb;
 
     for (iter2=0; iter2<2; iter2=iter2+1) begin
       for (i2=0; i2<32; i2=i2+1) begin
+        rinc = (i%2 == 0)? 1'b1 : 1'b0;
+        @(posedge rclk)
         if (rempty == 0)
         begin
-          rinc = (i%2 == 0)? 1'b1 : 1'b0;
-          @(posedge rclk)
           if (rinc) begin
             verif_wdata = verif_data_q[idx2];
             // Check the rdata against modeled wdata

@@ -23,7 +23,5 @@ module fifomem
   always @(posedge wclk)
     if (winc && !wfull)
       mem[waddr] <= wdata;
-    else
-      mem[waddr] <= {DATASIZE{1'b0}};
 
 endmodule
